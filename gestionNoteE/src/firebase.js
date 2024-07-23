@@ -15,7 +15,7 @@ const firebaseConfig = {
   projectId: "notesensaj",
   storageBucket: "notesensaj.appspot.com",
   messagingSenderId: "511557194046",
-  appId: "1:511557194046:web:2796fd78b9fe701ce85c6f",
+  appId: "",
   measurementId: "G-QHQJGXP25S"
 };
 
