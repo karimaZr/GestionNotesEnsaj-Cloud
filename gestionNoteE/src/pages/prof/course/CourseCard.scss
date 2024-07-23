@@ -1,0 +1,48 @@
+.course-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Trois cartes par ligne, taille minimale de 300px */
+    gap: 50px; /* Espacement entre les cartes */
+  }
+  
+  .course-card {
+    width: 100%; 
+   /* La carte prendra la largeur de sa colonne dans la grille */
+  }
+  .listContainer2 {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 20px;}
+
+    .home {
+        display: flex;
+      
+        .homeContainer {
+          flex: 6;
+      
+          .widgets,
+          .charts {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+          }
+      
+          .charts {
+            padding: 5px 5px;
+          }
+      
+          .listContainer {
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 20px;
+            margin: 20px;
+      
+            .listTitle {
+              font-weight: 5000;
+              color: rgb(227, 35, 35);
+              margin-bottom: 1500px;
+            }
+          }
+        }
+      }
+      

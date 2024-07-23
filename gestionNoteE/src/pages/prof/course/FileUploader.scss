@@ -1,0 +1,44 @@
+.list1 {
+    display: flex;
+  }
+  
+  .listContainer1 {
+    flex: 1;
+    margin-left: 20px; /* Ajustez cette valeur en fonction de la largeur de votre barre latérale */
+    padding: 20px;
+  }
+  
+  .widgets1 {
+    margin-bottom: 20px;
+  }
+  
+  .listTitle1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .editor-container1 {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
